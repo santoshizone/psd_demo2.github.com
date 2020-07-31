@@ -1,0 +1,373 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body{
+	overflow-x: hidden;
+}
+
+
+header{
+	background: url(../images/img1.jpg) no-repeat fixed;
+	background-size:100% 100%;
+	height:100vh;
+	position:relative;
+	width:100%;
+
+}
+
+.navbar{
+	background-color: black;
+	opacity: 0.7;
+}
+
+#Navbar1 ul li a{
+	color: white;
+}
+
+#Navbar1 ul{
+	margin-right:100px;
+}
+
+#Navbar1 ul li{
+	padding-left: 10px;
+}
+
+
+.box1{
+	position: absolute;
+	top:70%;
+	left:55%;
+	transform: translate(-50%,-50%);
+}
+
+.box1_h2{
+	color: white;
+}
+
+.box1_p1{
+	font-size: 13px;
+	color: white;
+}
+
+.icon1{
+
+	width: 40px;
+	height: 30px;
+	color: white;
+	margin-left:39px;
+	margin-top: -29px;
+	padding-top: 4px;
+
+}
+
+
+.btn_box{
+	width:80px;
+	height: 40px;
+	border: 1px solid white;
+}
+
+.sec1_h1{
+	padding-top: 50px;
+}
+
+.sec1_row{
+	display: flex;
+}
+
+.sec1_h1{
+	font-size: 30px;
+}
+
+.div1{
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.text{
+	width: 255px;
+	height: 150px;
+	background-color: red;
+	color: white;
+	position: absolute;
+	top: 102%;
+	left:48%;
+
+
+
+	transform: translate(-50%, -50%);
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.btn_box1{
+
+	width:80px;
+	height: 40px;
+	border: 1px solid white;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+.div1:hover img{
+	border: 4px solid red;
+
+}
+
+.div1:hover  .text{
+	top: 87%;
+	transition: 0.5s all;
+	
+	
+}
+
+
+.section2{
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/bg1.jpg) no-repeat center center fixed;
+ 	
+ 	background-size: cover;
+ 	
+ 	height:1000px;
+ 	position: relative;
+ 	
+
+
+}
+
+
+.sec2_con1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.sec2_h1{
+	color: white;
+	font-size: 30px;
+}
+
+.media-body{
+	padding-left: 20px;
+}
+
+.media{
+	background-color: white;
+}
+
+.sec2_h6{
+	font-weight: bold;
+}
+
+.sec3_p1{
+	font-size: 14px;
+}
+
+.section3 .media-body{
+	padding-top: 30px;
+}
+
+.section3{
+	background-color: red;
+}
+
+.sec3_h1{
+	font-size: 30px;
+	color: white;
+	padding-top: 50px;
+}
+
+.image_text{
+	background-color: white;
+
+}
+
+.image_text{
+	padding-top: 50px;
+	padding-left: 30px;
+	width: 500px;
+	height: 320px;
+}
+
+
+.btn_box2{
+
+	width:80px;
+	height: 40px;
+	border: 1px solid white;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+
+.sec4_h1{
+	font-size: 30px;
+	padding-top: 50px;
+}
+
+.sec4_p1{
+	font-size: 14px;
+}
+
+
+.sec4_row{
+	position: absolute;
+	top: 83%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	background-color: blue;
+	color: white;
+
+}
+
+.btn_box3{
+
+	width:40px;
+	height: 40px;
+	border: 1px solid white;
+	margin-top: 20px;
+	margin-left: 30px;
+	padding-right: 30px;
+}
+
+.btn_box4{
+
+	width:40px;
+	height: 40px;
+	border: 1px solid white;
+	margin-top: -40px;
+	margin-left: 100px;
+	padding-right: 20px;
+}
+
+
+.section4{
+	
+	position: relative;
+	height: 700px;
+}
+
+.sec5_row{
+	position: relative;
+}
+
+.icon_box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border: 1px solid white;
+}
+
+.footer{
+	background-color:#2f3352;
+	color: white;
+}
+
+
+.foot_col1{
+	font-size: 14px;
+}
+
+.foot_row{
+	padding-top: 60px;
+	width: 100%;
+}
+
+.col2_p1{
+	font-size: 14px;
+}
+
+.col2_p2{
+	font-size: 14px;
+
+}
+
+
+.col3{
+	font-size: 14px;
+}
+
+/*.viedo_box{
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+viedo{
+
+
+  width: 100%;
+  height: auto;
+}*/
+
+
+
+
+
+
+.sec3_col2 img{
+	width: 500px;
+	height: 330px;
+}
+
+
+
+.media:hover .media-body{
+	background-color: blue;
+	color: white;
+
+}
+
+.media:hover .twit{
+	background-color: white;
+	color: blue;
+}
+
+
+video{
+  width: 100%;
+  height: auto;
+
+  
+}
+
+.viedo_box{
+	padding-top: 60px;
+
+}
+
+
+
+
+.media:hover i{
+	border:1px solid white;
+	
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.section2{
+		height: 1800px;
+	}
+
+	.box1{
+		left: 51%;
+	}
+
+	.sec3_col2 img{width: 330px;
+
+	}
+	viedo{
+		margin: auto;
+	}
+	
+	}
